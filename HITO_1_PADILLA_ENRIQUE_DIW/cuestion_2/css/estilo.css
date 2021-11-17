@@ -1,0 +1,71 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.selectorPorClase {
+    font-weight: bold;
+}
+
+#selectorPorId {
+    background-color: black;
+    color: white;
+}
+
+a:visited {
+    font-size: 4em;
+    background-color: pink;
+}
+
+a:hover {
+    font-family: cursive;
+}
+
+a:link {
+    font-style: italic;
+}
+
+a:active {
+    font-size: 90px;
+}
+
+ul li:first-child {
+    font-size: 3em;
+}
+
+#selectorPorId::first-letter {
+    background-color: red;
+}
+
+#estilos1>p:last-child {
+    color: red;
+    font-size: 40px;
+}
+
+div span {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div.divPrecedencia {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div.divPrecedencia #primero {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#visDisPos img:last-child {
+    display: none;
+}
+
+#visDisPos img:first-child {
+    visibility: hidden;
+}
+
+#visDisPos {
+    background-color: turquoise;
+    border-radius: 15px;
+}
+
+#segunFoto {
+    position: sticky;
+}

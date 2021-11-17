@@ -1,0 +1,56 @@
+$colorFondo:aqua;
+$colorH1:pink;
+$colorP:white;
+$colorBackgroundTXT: black;
+$widthImg:200px;
+$heightImg:200px;
+$fontBody:'Verdana';
+img {
+    width: $widthImg;
+    height: $heightImg;
+}
+
+body {
+    background-color: $colorFondo;
+    font-family: $fontBody;
+}
+
+h1 {
+    color: $colorFondo;
+    background-color: $colorBackgroundTXT;
+}
+
+p {
+    color: $colorP;
+    background-color: $colorBackgroundTXT;
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    margin: 2rem;
+    border-collapse: collapse;
+}
+
+input[type="submit"] {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+span {
+    margin: 2rem;
+}
+
+input[type="text"] {
+    margin-right: 2rem;
+    margin-top: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+td {
+    border: 1px solid black;
+}

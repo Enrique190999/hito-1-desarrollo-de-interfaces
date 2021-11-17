@@ -1,0 +1,52 @@
+img {
+  width: 200px;
+  height: 200px;
+}
+
+body {
+  background-color: aqua;
+  font-family: "Verdana";
+}
+
+h1 {
+  color: aqua;
+  background-color: black;
+}
+
+p {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+table {
+  border: 2px solid black;
+  border-radius: 15px;
+  margin: 2rem;
+  border-collapse: collapse;
+}
+
+input[type=submit] {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+span {
+  margin: 2rem;
+}
+
+input[type=text] {
+  margin-right: 2rem;
+  margin-top: 5px;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+td {
+  border: 1px solid black;
+}
+
+/*# sourceMappingURL=estilo.css.map */
